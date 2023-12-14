@@ -20,13 +20,18 @@ body {
     font-size: 38px;
 }
 
-.navbar-nav {
-    margin-right: auto;
+.navbar-thicker-border {
+    border-bottom: 3px solid #fff; /* Adjust the thickness to your preference */
+  }
+
+.navbar-nav a:hover {
+        color: #fff; 
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
 }
 
 .container-top {
-    margin: 10px 20px;
-    padding: 20px 30px;
+    margin: 5px 20px;
+    padding: 15px 30px 0;
 }
 
 .container-top h1 {
@@ -55,9 +60,9 @@ body {
 .carousel-text-container {
     position: absolute;
     top: 20%;
-    right: 15%;
-    width: 24%;
-    background-color: rgba(0, 0, 0, 0.5);
+    right: 10%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     padding: 12px 15px;
     color: white;
@@ -79,9 +84,9 @@ body {
 .carousel-text-container-2 {
     position: absolute;
     top: 20%;
-    left: 10%;
-    width: 24%;
-    background-color: rgba(0, 0, 0, 0.5);
+    left: 5%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.7);
     border: rgba(0, 0, 0, 0);
     border-radius: 10px;
     padding: 12px 15px;
@@ -101,34 +106,8 @@ body {
     }
 }
 
-.carousel-text-container-3 {
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    width: 24%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: rgba(0, 0, 0, 0);
-    border-radius: 10px;
-    padding: 12px 15px;
-    color: white;
-    margin: 15px 0;
-}
-
-@media (max-width: 767px) {
-    .carousel-text-container-3 {
-        position: static;
-        width: 100%;
-        padding: 10px;
-        margin: 15px 0;
-        text-align: center;
-        border: solid white 1px;
-        border-radius: 5px;
-    }
-}
-
-
 footer {
-    border-top: 2px solid #fff; 
+    border-top: 2px solid #fff;
     width: 100%;
 }
 
