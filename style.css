@@ -51,9 +51,9 @@ body {
 
 @media (max-width: 767px) {
     .container-top {
-        margin: 1.25rem;
-        border: solid white 0.0625rem;
-        border-radius: 0.3125rem;
+        margin: 1.25em;
+        border: solid white 0.0625em;
+        border-radius: 0.3125em;
     }
 
     .navbar-brand {
@@ -81,11 +81,11 @@ body {
     .carousel-text-container {
         position: static;
         width: 100%;
-        padding: 0.625rem;
-        margin-top: 1.5625rem;
+        padding: 0.625em;
+        margin-top: 1.5625em;
         text-align: center;
-        border: solid white 0.0625rem;
-        border-radius: 0.3125rem;
+        border: solid white 0.0625em;
+        border-radius: 0.3125em;
     }
 }
 
@@ -106,11 +106,11 @@ body {
     .carousel-text-container-2 {
         position: static;
         width: 100%;
-        padding: 0.625rem;
-        margin: 0.9375rem 0;
+        padding: 0.625em;
+        margin: 0.9375em 0;
         text-align: center;
-        border: solid white 0.0625rem;
-        border-radius: 0.3125rem;
+        border: solid white 0.0625em;
+        border-radius: 0.3125em;
     }
 }
 
