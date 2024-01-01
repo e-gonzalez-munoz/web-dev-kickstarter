@@ -153,22 +153,8 @@ footer .nav a {
 
 @media (max-width: 767px) {
     .question-card {
-        background-color: #fff;
-        padding: 1.25em;
-        margin: 1.25em;
-        border-radius: 0.625em;
-        box-shadow: 0 0 0.625em rgba(146, 143, 143, 0.2);
-        text-align: center;
-        z-index: 5;
         max-width: 80%;
         height: auto;
-        color: black;
-    }
-
-    .question-image {
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 0.5em;
     }
 }
 
