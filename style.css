@@ -52,9 +52,19 @@ body {
 
 @media (max-width: 767px) {
     .container-top {
+        margin: 20px;
         border: solid white 1px;
         border-radius: 5px;
     }
+
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Permanent Marker', cursive;
+        font-size: 30px;
+    }
+
 }
 
 .carousel-content-container {
@@ -78,7 +88,7 @@ body {
         position: static;
         width: 100%;
         padding: 10px;
-        margin: 15px 0;
+        margin-top: 25px;
         text-align: center;
         border: solid white 1px;
         border-radius: 5px;
