@@ -131,21 +131,45 @@ footer .nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
+    width: 100%;
+    padding: 1rem;
 }
+
 
 .question-card {
     background-color: #fff;
-    padding: 1.25rem;
-    margin: 1.25rem;
-    border-radius: 0.625rem;
-    box-shadow: 0 0 0.625rem rgba(146, 143, 143, 0.2);
+    padding: 1.25em;
+    margin: 1.25em;
+    border-radius: 0.625em;
+    box-shadow: 0 0 0.625em rgba(146, 143, 143, 0.2);
     text-align: center;
     z-index: 5;
     max-width: 30%;
     height: auto;
     color: black;
+}
+
+@media (max-width: 767px) {
+    .question-card {
+        background-color: #fff;
+        padding: 1.25em;
+        margin: 1.25em;
+        border-radius: 0.625em;
+        box-shadow: 0 0 0.625em rgba(146, 143, 143, 0.2);
+        text-align: center;
+        z-index: 5;
+        max-width: 80%;
+        height: auto;
+        color: black;
+    }
+
+    .question-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 0.5em;
+    }
 }
 
 .question-image {
@@ -161,7 +185,7 @@ footer .nav a {
     border: none;
     border-radius: 0.3125rem;
     cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #options-container button:hover {
@@ -199,11 +223,11 @@ footer .nav a {
 
 #result-container h1 {
     color: #ffc107;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #result-container p {
     color: #fff;
     font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
