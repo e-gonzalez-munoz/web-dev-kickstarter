@@ -151,7 +151,7 @@ footer .nav a {
     color: black;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1450px) {
     .question-card {
         max-width: 80%;
         height: auto;
