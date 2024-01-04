@@ -43,10 +43,10 @@ let currentQuestion = 0;
 let score = 0;
 
 const showQuestion = () => {
-    const questionCard = document.getElementById("question-card");
-    const questionText = document.getElementById("question-text");
-    const optionsContainer = document.getElementById("options-container");
-    const imageContainer = document.getElementById("image-container");
+    const questionCard = document.querySelector("#question-card");
+    const questionText = document.querySelector("#question-text");
+    const optionsContainer = document.querySelector("#options-container");
+    const imageContainer = document.querySelector("#image-container");
 
     // Clear previous content
     imageContainer.innerHTML = "";
@@ -60,7 +60,7 @@ const showQuestion = () => {
     image.src = currentQ.image;
     image.alt = "Question Image";
     image.classList.add("question-image");
-    imageContainer.appendChild(image);
+    imageContainer.append(image);
 
     optionsContainer.innerHTML = "";
 
@@ -68,11 +68,11 @@ const showQuestion = () => {
         const button = document.createElement("button");
         button.innerText = option;
         button.addEventListener("click", () => checkAnswer(option));
-        optionsContainer.appendChild(button);
+        optionsContainer.append(button);
     });
 
     // Reset the next button
-    const nextBtn = document.getElementById("next-btn");
+    const nextBtn = document.querySelector("#next-btn");
     nextBtn.style.display = "none";
 
     if (currentQuestion === questions.length - 1) {
@@ -82,7 +82,7 @@ const showQuestion = () => {
 
 const checkAnswer = (selectedOption) => {
     const currentQ = questions[currentQuestion];
-    const nextBtn = document.getElementById("next-btn");
+    const nextBtn = document.querySelector("#next-btn");
 
     if (selectedOption === currentQ.correctAnswer) {
         score++;
@@ -92,7 +92,7 @@ const checkAnswer = (selectedOption) => {
 }
 
 const nextQuestion = () => {
-    const nextBtn = document.getElementById("next-btn");
+    const nextBtn = document.querySelector("#next-btn");
     nextBtn.style.display = "none";
 
     if (currentQuestion < questions.length - 1) {
@@ -104,9 +104,9 @@ const nextQuestion = () => {
 }
 
 const showResult = () => {
-    const quizContainer = document.getElementById("quiz-container");
-    const resultContainer = document.getElementById("result-container");
-    const resultText = document.getElementById("result-text");
+    const quizContainer = document.querySelector("#quiz-container");
+    const resultContainer = document.querySelector("#result-container");
+    const resultText = document.querySelector("#result-text");
 
     quizContainer.style.display = "none";
     resultContainer.style.display = "block";
