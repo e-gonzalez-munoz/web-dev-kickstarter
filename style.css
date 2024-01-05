@@ -36,6 +36,7 @@ body {
 
 
 /* Styles for the top container - index.html */
+
 .container-top {
     margin: 0.3125rem 1.25rem;
     padding: 0.9375rem 1.875rem 0;
@@ -65,6 +66,7 @@ body {
 }
 
 /* Styles for the carousel - index.html */
+
 .carousel-content-container {
     position: relative;
 }
@@ -164,6 +166,7 @@ footer .nav a {
 
 
 /* Styles for quiz.html */
+
 #quiz-container {
     display: flex;
     flex-direction: column;
