@@ -164,6 +164,12 @@ footer .nav a {
     color: #fff;
 }
 
+@media (max-width: 767px) {
+    footer span {
+        font-size: 0.75em;
+    }
+}
+
 /* Styles for quiz.html */
 
 #quiz-container {
