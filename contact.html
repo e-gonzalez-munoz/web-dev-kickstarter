@@ -63,25 +63,31 @@
                 <div class="row">
                     <div class="col-md-12 mx-auto">
                         <div class="text border-0 ">
-                            <h1 class="text-center">TEST YOUR GENERAL KNOWLEDGE ABOUT A GALAXY FAR, FAR AWAY</h1>
+                            <h1 class="text-center">INTERESTED? GET IN TOUCH TO ENROLL</h1>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="quiz-container">
-                <div id="question-card" class="question-card">
-                    <h2 id="question-text" class="question-text"></h2>
-                    <div id="image-container" class="image-container"></div>
-                    <div id="options-container" class="options-container"></div>
-                </div>
-                <button id="next-btn" onclick="nextQuestion()">Next</button>
+            <div class="container mt-3 mb-3">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your message"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </form>
             </div>
 
-            <div id="result-container" class="result-container">
-                <h1>Quiz Result</h1>
-                <p id="result-text" class="result-text"></p>
-            </div>
 
 
         </main>

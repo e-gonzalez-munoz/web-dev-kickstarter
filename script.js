@@ -1,3 +1,10 @@
+//Code to update the year at the footer
+
+const currentYear = new Date().getFullYear();
+
+document.getElementById('currentYear').textContent = currentYear;
+
+
 // Code for the quiz
 
 const questions = [
