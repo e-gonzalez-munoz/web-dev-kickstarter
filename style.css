@@ -164,9 +164,15 @@ footer .nav a {
     color: #fff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 450px) {
     footer span {
-        font-size: 0.65em;
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 350px) {
+    footer span {
+        font-size: 0.6em;
     }
 }
 
