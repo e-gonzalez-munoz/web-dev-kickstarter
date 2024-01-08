@@ -252,6 +252,13 @@ footer .nav a {
     z-index: 1;
 }
 
+@media (max-width: 1450px) {
+    #result-container {
+        width: 80%;
+        height: auto;
+    }
+}
+
 #result-container h1 {
     color: #ffc107;
     font-family: 'Roboto', sans-serif;
